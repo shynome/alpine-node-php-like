@@ -1,13 +1,13 @@
 
-const xphp = require('x-php')
+const jspages = require('jspages')
 
-exports.data = xphp.data(ctx=>{
+exports.data = jspages.data(ctx=>{
   return {
     name: 'hello'
   }
 })
 
-exports.render = xphp.page(async ( ctx, data=exports.data(ctx) ) =>
+exports.render = jspages.render(async ( ctx, data=exports.data(ctx) ) =>
 `
 ${data.name}
 `)
