@@ -1,7 +1,8 @@
 {
-  "name": "jspages",
+  "name": "@shynome/jspages",
   "version": "0.0.1",
   "main": "index.js",
+  "private": false,
   "scripts": {
     "test": "",
     "start": "node server.js"
