@@ -1,9 +1,10 @@
 {
-  "name": "node-php",
+  "name": "jspages",
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -11,13 +12,19 @@
   "devDependencies": {
     "@types/node": "^9.6.0"
   },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "directories": {
+    "test": "test"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shynome/alpine-node-php-like.git"
+    "url": "git+https://github.com/shynome/jspages.git"
   },
   "bugs": {
-    "url": "https://github.com/shynome/alpine-node-php-like/issues"
+    "url": "https://github.com/shynome/jspages/issues"
   },
-  "homepage": "https://github.com/shynome/alpine-node-php-like#readme",
+  "homepage": "https://github.com/shynome/jspages#readme",
   "description": ""
 }
