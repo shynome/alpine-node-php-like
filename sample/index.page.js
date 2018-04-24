@@ -1,13 +1,17 @@
-
 const jspages = require('@shynome/jspages')
 
-exports.data = jspages.data(ctx=>{
+exports.data = async (ctx=jspages.ctx)=>{
   return {
     name:'string'
   }
-})
+}
 
-exports.render = jspages.render(async ( ctx, data=exports.data(ctx) ) =>
-`
+exports.render = async (ctx=jspages.ctx) =>{
+
+  let data = await exports.data(ctx)
+  
+return `
 ${data.name}
-`)
+`
+
+}

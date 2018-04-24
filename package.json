@@ -2,10 +2,10 @@
   "name": "@shynome/jspages",
   "version": "0.0.2",
   "main": "lib/index.js",
-  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "",
-    "start": "node lib/server.js"
+    "test": "mocha test",
+    "preversion": "npm t",
+    "postversion": "git push --follow-tags"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +14,9 @@
     "@types/node": "^9.6.0"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "@shynome/dynamic-require": "0.0.1",
+    "express": "^4.16.3",
+    "fs-extra": "^5.0.0"
   },
   "directories": {
     "test": "test"
