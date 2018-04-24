@@ -1,5 +1,5 @@
 
-const jspages = require('jspages')
+const jspages = require('@shynome/jspages')
 
 exports.data = jspages.data(ctx=>{
   return {

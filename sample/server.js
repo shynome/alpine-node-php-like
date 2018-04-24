@@ -1,0 +1,1 @@
+require('@shynome/jspages').startServer()
