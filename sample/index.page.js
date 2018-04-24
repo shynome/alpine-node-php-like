@@ -3,7 +3,7 @@ const jspages = require('@shynome/jspages')
 
 exports.data = jspages.data(ctx=>{
   return {
-    name: 'hello'
+    name:'string'
   }
 })
 
