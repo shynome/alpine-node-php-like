@@ -12,5 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "@shynome/jspages": "file:.."
-  }
+  },
+  "devDependencies": {}
 }
